@@ -1,4 +1,49 @@
-# choose-your-own-adventure
+# Choose Your Own Adventure — CSS 382 Group 6
+
+**Live Site:** https://idyllic-sunshine-7221b8.netlify.app/
+
+**GitHub Repository:** https://github.com/Err0r64/CSS382-CYOA-6
+
+**Team Members:** Alec Situ, Hyobin Yook 
+
+Created for the "Choose Your Own Adventure Maker" assignment in CSS 382 A *Introduction To Artificial Intelligence*, with Dr. Yusuf Pisan, Spring 2026.
+
+---
+
+## About
+
+A web-based Choose Your Own Adventure tool with two modes:
+
+- **Author Mode** — Create and edit branching stories using an interactive graph editor
+- **Reader Mode** — Browse and play through available stories
+
+Built with React + Vite, React Flow, and Dagre. No backend — all data stored in the browser.
+
+See `Codebase.md` for full architecture documentation.
+
+---
+
+## Running Locally
+
+The latest version of the web app is in `CYOA-Src-Files-v3/`.
+
+```bash
+cd CYOA-Src-Files-v3
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
+
+**Other commands:**
+
+```bash
+npm run build      # build for production (outputs to dist/)
+npm run preview    # preview the production build locally
+npm run lint       # run ESLint
+```
+
+---
 
 ## Build Story Graph
 
